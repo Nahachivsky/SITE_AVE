@@ -1,0 +1,48 @@
+body{
+
+	background-image: url("img/bg_main.jpg");
+	background-repeat: no-repeat;
+    background-size: 115%;
+    margin-top: 5%;
+}
+.first{
+	position: relative;
+	width: auto;;
+	
+}
+
+.heder{
+	position: absolute;
+	width: 90%;
+	height: 70px;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, 0%);
+	background-image: url("img/menu_bg.png");
+	background-repeat: repeat-x;
+	box-shadow: 10px 10px 0px 0px  rgba(1, 0, 0, 0.1);
+	border-radius: 10px;
+
+}
+.menu{
+	background-image: url("img/menu_bg.png");
+	background-repeat: repeat-x;
+
+	position: absolute;
+	width: 70%;
+	height: 500px;
+	left: 50%;
+	
+	transform: translate(-50%, 90px);
+	text-align: center;
+	box-shadow: 10px 10px 0px 0px  rgba(1, 0, 0, 0.1);
+	border-radius: 20px;
+
+
+}
+
+.text_span{
+	color:  black;
+     top 20px;
+
+}
